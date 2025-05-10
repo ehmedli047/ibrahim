@@ -1,0 +1,597 @@
+/* Ümumi stil */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Footer üslubu */
+.footer {
+  background-color: #2e3a59;
+  color: #ffffff;
+  padding: 30px 20px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-placeholder img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.brand-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #00d1b2;
+  text-decoration: underline;
+}
+
+/* Mobil uyğunluq */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Ümumi */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+.header {
+  background-color: #2e3a59;
+  padding: 20px 0;
+}
+
+.header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #00d1b2;
+}
+
+/* Banner */
+.banner {
+  background: linear-gradient(to right, #38b2ac, #319795);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 18px;
+}
+
+/* Haqqımızda */
+.about {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+/* Xidmətlər */
+.services {
+  padding: 60px 20px;
+  background-color: #f0f4f8;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.service-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.box {
+  background-color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  min-width: 200px;
+}
+
+/* Footer */
+.footer {
+  background-color: #2e3a59;
+  color: #ffffff;
+  padding: 30px 20px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-placeholder img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+
+.brand-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-links a:hover {
+  color: #00d1b2;
+  text-decoration: underline;
+}
+
+/* Mobil uyğun */
+@media (max-width: 768px) {
+
+  .header .container,
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav {
+    margin-top: 10px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+  }
+}
+
+/* Dərman şəkilləri üçün bölmə */
+.medicine-gallery {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.medicine-gallery h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.gallery-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.05);
+  border-color: #38b2ac;
+}
+
+/* Xidmət ikonları bölməsi */
+.info-icons {
+  background-color: #f7f7f7;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.info-icons .container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.icon-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #fff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.icon-box:hover {
+  transform: translateY(-3px);
+}
+
+.icon-box img {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-box span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer-box {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.footer-logo-area {
+  flex: 1;
+}
+
+.footer-logo-area img {
+  width: 120px;
+}
+
+.footer-brand-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.footer-nav-links {
+  flex: 1;
+  padding-left: 40px;
+}
+
+.footer-section-title {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #38b2ac;
+}
+
+.footer-nav-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-nav-links li {
+  margin: 8px 0;
+}
+
+.footer-nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-nav-links a:hover {
+  color: #38b2ac;
+}
+
+.footer-socials {
+  flex: 1;
+  padding-left: 40px;
+}
+
+.footer-icon-row {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-icon-row a img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.footer-icon-row a:hover img {
+  transform: scale(1.1);
+}
+
+.footer-bottom-bar {
+  background-color: #222;
+  text-align: center;
+  padding: 12px 0;
+}
+
+.footer-bottom-bar p {
+  font-size: 14px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .footer-inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-nav-links,
+  .footer-socials {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+}
+
+.derman-qutusu {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 40px;
+  background-color: #f2f2f2;
+}
+
+.derman-item {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, background-color 0.3s;
+  cursor: pointer;
+}
+
+.derman-item:hover {
+  transform: scale(1.05);
+  background-color: #e0f9e7;
+  /* Açıq yaşıl */
+}
+
+.derman-item:hover .derman-yazi {
+  color: #1e9c5a;
+  /* Tünd yaşıl */
+}
+
+.derman-yazi {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.btn {
+  padding: 10px 16px;
+  background-color: #28a745;
+  /* yaşıl fon */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #218838;
+  /* hover effekti */
+}
+
+.footer-modern {
+  background-color: #111;
+  color: #fff;
+  padding: 60px 40px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 260px;
+  line-height: 1.8;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.brand-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #50d890;
+}
+
+.footer-social a img {
+  width: 26px;
+  height: 26px;
+  margin-right: 12px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s ease;
+}
+
+.footer-social a:hover img {
+  transform: scale(1.2);
+}
+
+.footer-about {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+@media (max-width: 768px) {
+  .product-list {
+    grid-template-columns: repeat(2, 1fr);
+    /* mobil üçün 2 sütun */
+    gap: 12px;
+  }
+
+  .search-box {
+    flex-direction: column;
+  }
+
+  .search-input,
+  .search-btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .brand-box,
+  .product-card {
+    width: 100%;
+  }
+}

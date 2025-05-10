@@ -1,0 +1,198 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9fbfc;
+    margin: 0;
+    padding: 0;
+}
+
+.rules-section {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+.rules-section h1 {
+    text-align: center;
+    color: #0b6e4f;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.rules-content h2 {
+    color: #094c39;
+    margin-top: 25px;
+    font-size: 22px;
+}
+
+.rules-content p {
+    color: #444;
+    line-height: 1.7;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.footer {
+    background-color: #2e3a59;
+    color: #ffffff;
+    padding: 30px 20px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-placeholder img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.brand-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #00d1b2;
+    text-decoration: underline;
+}
+
+.footer-modern {
+    background-color: #111;
+    color: #fff;
+    padding: 60px 40px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 260px;
+    line-height: 1.8;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.brand-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #50d890;
+}
+
+.footer-social a img {
+    width: 26px;
+    height: 26px;
+    margin-right: 12px;
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s ease;
+}
+
+.footer-social a:hover img {
+    transform: scale(1.2);
+}
+
+.footer-about {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+@media (max-width: 768px) {
+    .product-list {
+        grid-template-columns: repeat(2, 1fr);
+        /* mobil üçün 2 sütun */
+        gap: 12px;
+    }
+
+    .search-box {
+        flex-direction: column;
+    }
+
+    .search-input,
+    .search-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .brand-box,
+    .product-card {
+        width: 100%;
+    }
+}

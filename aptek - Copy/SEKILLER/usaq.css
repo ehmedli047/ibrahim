@@ -1,0 +1,348 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+.child-products {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.child-products h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #0b6e4f;
+    margin-bottom: 40px;
+}
+
+.product-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    padding: 25px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+.img-area {
+    background-color: #e3f6f5;
+    height: 140px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.product-card h2 {
+    color: #0b6e4f;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.desc {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0a5f3c;
+}
+
+/* Ümumi stil */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Footer üslubu */
+.footer {
+    background-color: #2e3a59;
+    color: #ffffff;
+    padding: 30px 20px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-placeholder img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.brand-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #00d1b2;
+    text-decoration: underline;
+}
+
+.kids-section {
+    margin: 60px auto;
+    padding: 0 20px;
+    max-width: 1200px;
+}
+
+.section-title {
+    font-size: 32px;
+    text-align: center;
+    color: #0b6e4f;
+    margin-bottom: 40px;
+}
+
+.kids-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.kids-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kids-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+.kids-img {
+    height: 140px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kids-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.kids-card h2 {
+    font-size: 20px;
+    color: #0b6e4f;
+    margin-bottom: 10px;
+}
+
+.kids-desc {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.kids-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #00754a;
+}
+
+.pampers-section {
+    margin: 60px auto;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin-top: 60px;
+}
+
+.pampers-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.pampers-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pampers-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+.pampers-img {
+    height: 140px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pampers-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.pampers-card h2 {
+    font-size: 20px;
+    color: #7e4c00;
+    margin-bottom: 10px;
+}
+
+.pampers-desc {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.pampers-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #d98f00;
+}
+
+.rey-sehife {
+    padding: 60px 20px;
+    background-color: #f3f4f6;
+    text-align: center;
+}
+
+.rey-basliq {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #2c3e50;
+}
+
+.rey-qutu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.rey-item {
+    background: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: transform 0.3s ease;
+}
+
+.rey-item:hover {
+    transform: translateY(-5px);
+}
+
+.rey-soz {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 15px;
+    max-height: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.rey-star {
+    font-size: 18px;
+    color: #ffb400;
+    margin-bottom: 8px;
+}
+
+.rey-ad {
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .product-list {
+        grid-template-columns: repeat(2, 1fr);
+        /* mobil üçün 2 sütun */
+        gap: 12px;
+    }
+
+    .search-box {
+        flex-direction: column;
+    }
+
+    .search-input,
+    .search-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .brand-box,
+    .product-card {
+        width: 100%;
+    }
+}
